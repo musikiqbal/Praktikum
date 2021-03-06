@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile Programing IF18" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iqbal Alfian - 18416255201162" />
+
+    <TextView
+        android:id="@+id/bilangan1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="Bilangan 1" />
+
+    <EditText
+        android:id="@+id/bil1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/bilangan2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="Bilangan 2" />
+
+    <EditText
+        android:id="@+id/bil2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnTambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="tambah"
+        android:text="Tambah" />
+
+    <Button
+        android:id="@+id/btnKurang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="kurang"
+        android:text="kurang" />
+
+    <Button
+        android:id="@+id/btnKali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="kali"
+        android:text="Kali" />
+    <Button
+        android:id="@+id/btnBagi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="bagi"
+        android:text="Bagi" />
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="- Hasil -"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="30sp" />
+
+
+</LinearLayout>
